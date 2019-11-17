@@ -13,3 +13,5 @@ EOF
 
 chmod 600 /etc/sssd/sssd.conf
 systemctl restart sssd
+
+echo "Now login to your system http://[your_ip]:9000"
