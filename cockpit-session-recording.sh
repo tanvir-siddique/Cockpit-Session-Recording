@@ -1,5 +1,5 @@
 #!/bin/bash
-yum install tlog cockpit-session-recording 
+yum install sssd tlog cockpit-session-recording 
 systemctl enable —now cockpit.socket
 
 cat <<EOF >/etc/sssd/sssd.conf
